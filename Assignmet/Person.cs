@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 namespace Assignmet
 {
     #region Q2)
-    public struct Person
-    {
-        public string Name;
-        public int Age;
+    //public struct Person
+    //{
+    //    public string Name;
+    //    public int Age;
 
-        public Person(string name,int age)
+    //    public Person(string name,int age)
 
-        {
-            this.Name = name;   
-            this.Age = age;
-        }
-    }
+    //    {
+    //        this.Name = name;   
+    //        this.Age = age;
+    //    }
+    //}
     #endregion
 }

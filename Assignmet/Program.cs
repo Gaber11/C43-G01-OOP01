@@ -15,8 +15,14 @@
         //}
         #endregion
 
-        #region
-
+        #region Q2)
+        enum Season
+        {
+            Spring=1,
+            Summer=2,
+            Autumn=3,
+            Winter=4
+        }
         #endregion
         static void Main(string[] args)
         {
@@ -49,26 +55,48 @@
 
             #endregion
 
-            #region
+            #region 3.Create an enum called "Season" with the four seasons (Spring, Summer, Autumn, Winter) as its members. Write a C# program that takes a season name as input from the user and displays the corresponding month range for that season. Note range for seasons ( spring march to may , summer june to august , autumn September to November , winter December to February)
+            //Console.WriteLine("Enter a season [Spring, Summer, Autumn, Winter]: ");
+            //bool Result =Enum.TryParse<Season>(Console.ReadLine(),true,out  Season season);
 
-            #endregion
+            //switch (season)
+            //{
+            //    case Season.Spring:
+            //        Console.WriteLine("march,April , may");
+            //        break;
+            //    case Season.Summer:
+            //        Console.WriteLine("june ,july , august ");
+            //        break;
+            //    case Season.Autumn:
+            //        Console.WriteLine("September ,October , November ");
+            //        break;
+            //    case Season.Winter:
+            //        Console.WriteLine("December ,jenuary , February ");
+            //        break;
 
-            #region
+            //}
 
-            #endregion
 
-            #region
 
-            #endregion
 
-            #region
+                    #endregion
 
-            #endregion
+                    #region
 
-            #region
+                    #endregion
 
-            #endregion
+                    #region
 
+                    #endregion
+
+                    #region
+
+                    #endregion
+
+                    #region
+
+                    #endregion
+
+            }
         }
-    }
 }
