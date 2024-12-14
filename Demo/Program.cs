@@ -173,15 +173,29 @@ namespace Demo
 
             #endregion
 
-            #region
+            #region 6 - Struct
+          //  Point p1; // Allocate 8 bytes in stack [unintialized]
+           // p1 = new Point(10);
 
-            #endregion
+           // // p1.X = 10;
+           // //  p1.Y = 20;
+           // //Console.WriteLine(p1.X);
+           // //Console.WriteLine(p1.Y);
+           // Console.WriteLine(p1);
+           //Console.WriteLine(p1.ToString());
+           // //Point p2= new Point(1,2);
+           // //Console.WriteLine(p2);
 
-            #region
+           // Point p2 = new(); //c#9 .NET5
 
-            #endregion
 
-            #region
+
+
+
+
+
+
+
 
             #endregion
 
