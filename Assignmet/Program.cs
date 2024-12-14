@@ -15,14 +15,27 @@
         //}
         #endregion
 
-        #region Q2)
+        #region Q3)
         enum Season
         {
-            Spring=1,
-            Summer=2,
-            Autumn=3,
-            Winter=4
+            Spring = 1,
+            Summer = 2,
+            Autumn = 3,
+            Winter = 4
         }
+        #endregion
+
+        #region Q4)
+        enum Premession
+        {
+            Read=1,
+            write=2,
+            Delete=4,
+            Execute=8
+
+        }
+
+
         #endregion
         static void Main(string[] args)
         {
@@ -79,24 +92,45 @@
 
 
 
-                    #endregion
+            #endregion
 
-                    #region
+            #region 4.	Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.
 
-                    #endregion
+            //Premession premession = new Premession();
+        
+            //Console.WriteLine("Adding Permissions: ");
+            //premession = Premession.Read | Premession.Delete | Premession.Execute; // Add Read and Delete permission
+            //Console.WriteLine("After Adding Read and Delete: " + premession);
+            //Console.WriteLine("======================================================");
+            //Console.WriteLine("Removing Permissions: ");
+            //premession = premession ^ Premession.Delete; // Removing Delete permission
+            //Console.WriteLine("After Removing Delete: " + premession);
+            //Console.WriteLine("======================================================");
+            //Console.WriteLine("Check: ");
+           
+            //bool YesWrite = (premession & Premession.write) == Premession.write;
+            //Console.WriteLine("Has Write Permission: " + YesWrite);
 
-                    #region
+            //bool YesRead = (premession & Premession.Read) == Premession.Read;
+            //Console.WriteLine("Has Read Permission: " + YesRead);
 
-                    #endregion
 
-                    #region
 
-                    #endregion
 
-                    #region
+            #endregion
 
-                    #endregion
+            #region
 
-            }
+            #endregion
+
+            #region
+
+            #endregion
+
+            #region
+
+            #endregion
+
         }
+    }
 }
