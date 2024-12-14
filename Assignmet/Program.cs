@@ -37,6 +37,16 @@
 
 
         #endregion
+
+        #region Q5)
+        enum Colors
+        {
+            Red,
+            Green,
+            Blue
+        }
+
+        #endregion
         static void Main(string[] args)
         {
 
@@ -97,7 +107,7 @@
             #region 4.	Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.
 
             //Premession premession = new Premession();
-        
+
             //Console.WriteLine("Adding Permissions: ");
             //premession = Premession.Read | Premession.Delete | Premession.Execute; // Add Read and Delete permission
             //Console.WriteLine("After Adding Read and Delete: " + premession);
@@ -107,7 +117,7 @@
             //Console.WriteLine("After Removing Delete: " + premession);
             //Console.WriteLine("======================================================");
             //Console.WriteLine("Check: ");
-           
+
             //bool YesWrite = (premession & Premession.write) == Premession.write;
             //Console.WriteLine("Has Write Permission: " + YesWrite);
 
@@ -119,8 +129,20 @@
 
             #endregion
 
-            #region
+            #region 5.	Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
 
+            //Console.WriteLine("Enter One Primary Color ");
+            //bool Result = Enum.TryParse<Colors>(Console.ReadLine(), true, out Colors color);
+
+            //if (Result)
+            //{
+            //    Console.WriteLine($" {color} :is a primary color");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("the input color is not a primary color");
+
+            //}
             #endregion
 
             #region
