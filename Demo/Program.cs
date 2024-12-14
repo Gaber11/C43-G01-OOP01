@@ -7,9 +7,17 @@ namespace Demo
         public int Id;
         public string Name;
         public double Salary;
-        public Gender gender;
-        public Role role;
-        public Grade grade;
+        //public Gender gender;
+        //public Role role;
+        //public Grade grade;
+        public Permission permission;
+    }
+    enum Permission: byte
+    {
+        Delete= 1,
+        Execute =2,
+        Write =4,
+        Read=8
     }
     enum Role
     {
@@ -77,13 +85,13 @@ namespace Demo
             #endregion
 
             #region 3 -Enums Part 1
-            Employee emp = new Employee();
-            emp.Name = "Gaber";
-            emp.Id = 10;
-            emp.Salary = 1000;
-            emp.gender = Gender.Male;
-            emp.role = Role.Admin;
-            emp.grade = Grade.A;
+            //Employee emp = new Employee();
+            //emp.Name = "Gaber";
+            //emp.Id = 10;
+            //emp.Salary = 1000;
+            //emp.gender = Gender.Male;
+            //emp.role = Role.Admin;
+            //emp.grade = Grade.A;
 
             //Console.WriteLine(Gender.Male);
 
@@ -121,17 +129,47 @@ namespace Demo
             //Console.WriteLine(Result);
             //Console.WriteLine(gender);
 
-           // bool Result = Enum.TryParse<Gender>(Console.ReadLine(), true, out Gender gender);
+            // bool Result = Enum.TryParse<Gender>(Console.ReadLine(), true, out Gender gender);
             //Console.WriteLine(Result);
-          //  Console.WriteLine(gender);
+            //  Console.WriteLine(gender);
 
-           // Gender g1 = new Gender();
-           // Console.WriteLine(g1);   //default value (0)
+            // Gender g1 = new Gender();
+            // Console.WriteLine(g1);   //default value (0)
 
 
             #endregion
 
-            #region
+            #region 5 - Permission Enum
+            //Read , write , execute , delete
+            //Employee employee = new Employee();
+            //employee.Id = 1;
+            //employee.Name = "Gaber";
+            //employee.Salary = 1000;
+            //employee.permission = Permission.Delete;
+            //XOR , AND , OR
+            //XOR : if the permission already exist it remove it , If the permission is exist XOR add it.
+            //employee.permission = (Permission)15;
+            //employee.permission =employee.permission ^ Permission.Write;
+            //Console.WriteLine(employee.permission);
+
+            //AND: check if the permission exist.
+            //if((employee.permission & Permission.Write)==Permission.Write)
+            //{
+            //    Console.WriteLine("Permission already exist");
+            //}
+            //else
+            //{
+            //    employee.permission=employee.permission ^ Permission.Write; // execute , write , delete
+            //    Console.WriteLine("Peremission ADDed");
+            //}
+            //OR : Add the permission if not exist , if it exist do nothing.
+            //employee.permission = (Permission)3;
+            //Console.WriteLine(employee.permission);
+            //employee.permission= employee.permission | Permission.Delete;
+            //Console.WriteLine(employee.permission);
+            //employee.permission = employee.permission | Permission.Write;
+            //Console.WriteLine(employee.permission); 
+
 
             #endregion
 

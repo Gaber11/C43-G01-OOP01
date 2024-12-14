@@ -8,7 +8,7 @@ namespace common
 {
     //what can i write inside enum ?
      //Lables
-    internal enum TypeZ
-    {
-    }
+    //internal enum TypeZ
+    //{
+    //}
 }
