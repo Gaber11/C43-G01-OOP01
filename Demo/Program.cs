@@ -112,7 +112,22 @@ namespace Demo
 
             #endregion
 
-            #region
+            #region 4 - Enums Part 2
+            //Console.WriteLine("Enter the Gender");
+            //Gender gender;
+            //gender=(Gender)Enum.Parse(typeof(Gender),Console.ReadLine());
+
+            // bool Result = Enum.TryParse(typeof(Gender), Console.ReadLine(), out object? gender);
+            //Console.WriteLine(Result);
+            //Console.WriteLine(gender);
+
+           // bool Result = Enum.TryParse<Gender>(Console.ReadLine(), true, out Gender gender);
+            //Console.WriteLine(Result);
+          //  Console.WriteLine(gender);
+
+           // Gender g1 = new Gender();
+           // Console.WriteLine(g1);   //default value (0)
+
 
             #endregion
 
