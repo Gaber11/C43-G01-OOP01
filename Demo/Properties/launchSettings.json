@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\dotnet\\Route\\C#\\03 OOP\\Session 01\\Assignment\\Day01 OOP solution\\Demo\\bin\\Debug\\net8.0"
+    }
+  }
+}
